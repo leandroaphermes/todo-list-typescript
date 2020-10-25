@@ -3,10 +3,7 @@ import AddItem from '../AddItem/AddItem'
 
 import { Container, ContainerRows, ContainerItem } from './styles'
 
-interface IList {
-  id: number,
-  value: string
-}
+import IList from '../../interfaces/IList'
 
 export default function List() {
 

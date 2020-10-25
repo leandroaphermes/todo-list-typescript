@@ -2,9 +2,7 @@ import React,{ useState, useRef, useEffect } from 'react'
 
 import { Container, Input, ButtonAdd } from './styles'
 
-interface IAddItem {
-  onAddItem(value: string): void
-}
+import IAddItem from '../../interfaces/IAddItem'
 
 const AddItem: React.FC<IAddItem> = ({ onAddItem }) => {
 
